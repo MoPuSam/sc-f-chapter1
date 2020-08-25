@@ -1,0 +1,13 @@
+server:
+  #分别以8762，8763端口启动
+  port: 8762
+  #port: 8763
+spring:
+  application:
+    name: service-hi
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
